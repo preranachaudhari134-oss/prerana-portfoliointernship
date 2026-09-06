@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Prerna Mali, showcasing web development skills, projects and contact information.">
+    <meta name="keywords" content="portfolio, web developer, HTML5, CSS3, JavaScript, accessibility">
+    <meta name="author" content="Prerna Mali">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Prerna Mali | Personal Portfolio">
+    <meta property="og:description" content="Personal portfolio of Prerna Mali, showcasing web development skills, projects and contact information.">
+    <title>Prerna Mali | Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+    <div class="container nav-wrapper">
+        <a href="index.html" class="logo" aria-label="Prerna Mali Home">Prerna Mali</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">☰</button>
+        <nav id="primary-navigation" aria-label="Primary navigation">
+            <ul class="nav-list">
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme">🌙</button></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main-content">
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <p class="eyebrow">Computer Engineering Student</p>
+                <h1>Hi, I'm <span>Prerna Mali</span></h1>
+                <p class="hero-text">I create modern, responsive and accessible websites with clean design and user-friendly experiences.</p>
+                <div class="hero-actions">
+                    <a href="projects.html" class="button">View My Projects</a>
+                    <a href="contact.html" class="button button-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-card" aria-label="Portfolio highlights">
+                <div class="hero-card-inner">
+                    <div class="code-symbol">&lt;/&gt;</div>
+                    <h2>Build. Learn. Create.</h2>
+                    <p>Turning ideas into responsive digital experiences.</p>
+                    <div class="mini-stats">
+                        <div><strong>HTML5</strong><span>Semantic</span></div>
+                        <div><strong>CSS3</strong><span>Responsive</span></div>
+                        <div><strong>JS</strong><span>Interactive</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" aria-labelledby="featured-projects-heading">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">My Work</p>
+                <h2 id="featured-projects-heading">Featured Projects</h2>
+                <p>Projects that demonstrate my interest in web development, accessibility and practical problem solving.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-icon">⌘</div>
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive personal portfolio website built using semantic HTML5, CSS3 and JavaScript.</p>
+                    <a href="projects.html#project-one">View Project <span>→</span></a>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">✓</div>
+                    <h3>Task Manager</h3>
+                    <p>A simple task management application designed with accessibility and usability in mind.</p>
+                    <a href="projects.html#project-two">View Project <span>→</span></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta section" aria-labelledby="cta-heading">
+        <div class="container cta-inner">
+            <div>
+                <p class="eyebrow">Let's Connect</p>
+                <h2 id="cta-heading">Have an idea in mind?</h2>
+                <p>Let's turn it into a clean and useful digital experience.</p>
+            </div>
+            <a href="contact.html" class="button">Start a Conversation</a>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; <span id="current-year"></span> Prerna Mali. All rights reserved.</p>
+        <nav aria-label="Social media links">
+            <ul class="footer-links">
+                <li><a href="https://github.com/" aria-label="Visit GitHub">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/" aria-label="Visit LinkedIn">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
